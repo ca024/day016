@@ -1,0 +1,54 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600;700&family=Dancing+Script:wght@700&display=swap");
+
+/*
+FF9B6A
+#88e0ef;
+#ff5151;
+#161e54;
+*/
+
+/* General style */
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #161e54;
+}
+
+body {
+  font-family: "Archivo Narrow", sans-serif;
+  color: #ff9b6a;
+}
+
+a {
+  text-decoration: none;
+  color: #ff9b6a;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin: 0 30px;
+  font-size: 20px;
+}
+
+#logo {
+  color: #ff5151;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 3px 3px 15px rgba(1, 83, 72, 0.3);
+}
